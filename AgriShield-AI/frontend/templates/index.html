@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AgriShield AI</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🌱 AgriShield AI</h1>
+<p>AI Powered Smart Crop Protection</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<input type="file" id="leaf" onchange="previewImage()">
+
+<img id="preview">
+
+<button onclick="detect()">Analyze Leaf</button>
+
+<div id="loader"></div>
+
+</div>
+
+<div class="card result-card">
+
+<h2>AI Result</h2>
+
+<div id="result">Upload image to start</div>
+
+</div>
+
+</div>
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>
