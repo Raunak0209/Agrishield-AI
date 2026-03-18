@@ -34,8 +34,6 @@ The system provides instant predictions along with confidence scores, risk analy
 ---
 ## 🖼️ Demo Screenshots
 
-> Add your project screenshots below 👇
-
 ### 📌 Home Interface
 
 <img width="1606" height="982" alt="image" src="https://github.com/user-attachments/assets/37034860-1473-4018-a0bb-71670aae31d3" />
